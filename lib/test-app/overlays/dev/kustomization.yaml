@@ -7,6 +7,6 @@ resources:
 - ../../base
 
 images:
-- digest: sha256:7ad048950754bf98a9ef102289d8c82eef700e21401e11e03a0f42552ed5b911
+- digest: sha256:448b008a7e09b583adeeb7fc41cbe969674836aca34831ecb9b8acbc035167d3
   name: ghcr.io/ysdexlic/test-app
   newName: ghcr.io/ysdexlic/test-app
