@@ -1,0 +1,12 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+namespace: profile-ui
+
+resources:
+- ../../base
+
+images:
+- digest: sha256:7ad048950754bf98a9ef102289d8c82eef700e21401e11e03a0f42552ed5b911
+  name: ghcr.io/ysdexlic/test-app
+  newName: ghcr.io/ysdexlic/test-app
